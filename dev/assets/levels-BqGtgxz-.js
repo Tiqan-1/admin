@@ -1,0 +1,1 @@
+import{k as s,_ as t,l as r}from"./index-A-adSsHM.js";const a=e=>s.get({url:"/levels",params:r(e),headers:{"ngrok-skip-browser-warning":"true"}}),o=e=>s.get({url:t("/levels/:id",{id:e})}),n=e=>s.post({url:"/levels",data:e}),i=(e,l)=>s.put({url:t("/levels/:id",{id:e}),data:l}),p=e=>s.delete({url:t("/levels/:id",{id:e})}),c={get:a,show:o,create:n,update:i,destroy:p};export{c as a};

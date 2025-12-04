@@ -1,0 +1,1 @@
+import{k as t,_ as e}from"./index-A-adSsHM.js";const o=s=>t.get({url:"/subjects",params:s,headers:{"ngrok-skip-browser-warning":"true"}}),u=s=>t.get({url:e("/subjects/:id",{id:s})}),c=s=>t.post({url:"/subjects",data:s}),n=(s,r)=>t.put({url:e("/subjects/:id",{id:s}),data:r}),i=s=>t.delete({url:e("/subjects/:id",{id:s})}),p={get:o,show:u,create:c,update:n,destroy:i};export{p as s};
